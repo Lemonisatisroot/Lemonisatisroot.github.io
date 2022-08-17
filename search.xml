@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>markdown</title>
+      <link href="/2022/08/17/markdown/"/>
+      <url>/2022/08/17/markdown/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="标题（-空格-文字：表示定义几级标题-根据-的数量）"><a href="#标题（-空格-文字：表示定义几级标题-根据-的数量）" class="headerlink" title="标题（# + 空格 + 文字：表示定义几级标题 根据 # 的数量）"></a>标题（# + 空格 + 文字：表示定义几级标题 根据 # 的数量）</h2><h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h2 id="标题-1"><a href="#标题-1" class="headerlink" title="标题"></a>标题</h2><h3 id="标题-2"><a href="#标题-2" class="headerlink" title="标题"></a>标题</h3><h4 id="标题-3"><a href="#标题-3" class="headerlink" title="标题"></a>标题</h4><h5 id="标题-4"><a href="#标题-4" class="headerlink" title="标题"></a>标题</h5><h6 id="标题-5"><a href="#标题-5" class="headerlink" title="标题"></a>标题</h6><h2 id="数量有1-6-对应-1-6级标题"><a href="#数量有1-6-对应-1-6级标题" class="headerlink" title="#数量有1-6 对应 1-6级标题"></a>#数量有1-6 对应 1-6级标题</h2><hr><h2 id="斜体和粗体"><a href="#斜体和粗体" class="headerlink" title="斜体和粗体"></a>斜体和粗体</h2><h4 id="一个-包裹文字表示斜体，两个-包裹文字表示粗体，两个-包裹文字标题删除线"><a href="#一个-包裹文字表示斜体，两个-包裹文字表示粗体，两个-包裹文字标题删除线" class="headerlink" title="一个* 包裹文字表示斜体，两个* 包裹文字表示粗体，两个~包裹文字标题删除线"></a>一个* 包裹文字表示斜体，两个* 包裹文字表示粗体，两个~包裹文字标题删除线</h4><p><em>斜体</em>   <strong>粗体</strong>   <del>删除线</del></p><hr><h2 id="超链接和图片"><a href="#超链接和图片" class="headerlink" title="超链接和图片"></a>超链接和图片</h2><h2 id="文字描述-图片引用地址"><a href="#文字描述-图片引用地址" class="headerlink" title="! + [文字描述] + (图片引用地址)  "></a>! + [文字描述] + (图片引用地址)  <img src="/img/keli.jpg" alt="文字描述"></h2><h2 id="描述-引用地址-x3D-百度"><a href="#描述-引用地址-x3D-百度" class="headerlink" title="[描述] + (引用地址)  &#x3D; 百度"></a>[描述] + (引用地址)  &#x3D; <a href="https://www.baidu.com/">百度</a></h2><hr><h2 id="无序列表和无序列表"><a href="#无序列表和无序列表" class="headerlink" title="无序列表和无序列表"></a>无序列表和无序列表</h2><h2 id="使用-，-，"><a href="#使用-，-，" class="headerlink" title="使用 -，+，*"></a>使用 -，+，*</h2><ul><li>列表</li><li>列表<ul><li>列表<ul><li>列表</li></ul></li></ul></li></ul><ul><li>列表</li></ul><ol><li>有序</li><li>有序 </li><li>有序</li></ol><hr><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table><thead><tr><th>Tables</th><th align="center">Are</th><th align="right">Cool</th></tr></thead><tbody><tr><td>col 1 is</td><td align="center">left-aligned</td><td align="right">$1600</td></tr><tr><td>col 2 is</td><td align="center">centered</td><td align="right">$12</td></tr><tr><td>col 3 is</td><td align="center">right-aligned</td><td align="right">$1</td></tr></tbody></table><table><thead><tr><th align="center">姓名</th><th align="center">性别</th><th align="center">年龄</th></tr></thead><tbody><tr><td align="center">张三</td><td align="center">男</td><td align="center">15</td></tr><tr><td align="center">李四</td><td align="center">男</td><td align="center">16</td></tr></tbody></table><ol><li>Emmet：table3*3后敲Tab，表示生成3行3列的表格，行首生效</li><li>md表格对齐是传统md的痛点，按下Ctrl+K可以自动整理表格格式（暂未兼容不同缩放模式和字体的情况）</li><li>支持从excel、wps、word、number的表格中复制粘贴表格进来（不支持合并单元格和单元格换行）</li></ol><hr><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测试</title>
       <link href="/2022/08/15/%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/08/15/%E6%B5%8B%E8%AF%95/</url>
