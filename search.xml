@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>git常用命令</title>
+      <link href="/2022/08/30/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2022/08/30/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="git的常用命令"><a href="#git的常用命令" class="headerlink" title="git的常用命令"></a>git的常用命令</h1><h2 id="创建一个分支"><a href="#创建一个分支" class="headerlink" title="创建一个分支"></a>创建一个分支</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b branch_name</span><br></pre></td></tr></table></figure><h2 id="检查当前所处的分支"><a href="#检查当前所处的分支" class="headerlink" title="检查当前所处的分支"></a>检查当前所处的分支</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure><h2 id="检查文件的状态"><a href="#检查文件的状态" class="headerlink" title="检查文件的状态"></a>检查文件的状态</h2><p>进入到项目文件所处的目录</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><h2 id="将修改的文件加到暂存区"><a href="#将修改的文件加到暂存区" class="headerlink" title="将修改的文件加到暂存区"></a>将修改的文件加到暂存区</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><h2 id="进行本地提交"><a href="#进行本地提交" class="headerlink" title="进行本地提交"></a>进行本地提交</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit  </span><br></pre></td></tr></table></figure><h2 id="提交到远程仓库"><a href="#提交到远程仓库" class="headerlink" title="提交到远程仓库"></a>提交到远程仓库</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u 仓库名 分支名</span><br></pre></td></tr></table></figure><h2 id="将分支和主分支代码合并"><a href="#将分支和主分支代码合并" class="headerlink" title="将分支和主分支代码合并"></a>将分支和主分支代码合并</h2><p>先切换到主分支</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout 主分支名 </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge 分支名</span><br></pre></td></tr></table></figure><p>将主分支代码推送到仓库</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure><h2 id="删除本地分支"><a href="#删除本地分支" class="headerlink" title="删除本地分支"></a>删除本地分支</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d branch_name</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> 版本控制 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>markdown</title>
       <link href="/2022/08/17/markdown/"/>
       <url>/2022/08/17/markdown/</url>
